@@ -1,7 +1,7 @@
 const dbContext = require('./dbContext');
 const database = require('./db-config');
 
-const gs = require('../lib');
+const gs = require('../index');
 
 const createCustomer = () => {
   const DbContext = new dbContext(database);
