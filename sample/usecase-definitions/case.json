@@ -1,0 +1,21 @@
+{
+  "name" : "create customer",
+  "flow": [{
+    "service": "customer-service",
+    "module": "crm",
+    "funcName": "createCustomer",
+    "isInternal": true
+  },
+  {
+    "service": "customer-service",
+    "module": "crm",
+    "funcName": "checkCustomer",
+    "isInternal": true
+  },
+  {
+    "service": "customer-service",
+    "module": "crm",
+    "funcName": "changeCustomerName",
+    "isInternal": true
+  }]
+}

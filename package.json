@@ -1,0 +1,25 @@
+{
+  "name": "generic-services",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antony0901/node-generic-services.git"
+  },
+  "author": "Antony Nguyen <antony.nguyen@unicorn.vn>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antony0901/node-generic-services/issues"
+  },
+  "homepage": "https://github.com/antony0901/node-generic-services#readme",
+  "dependencies": {
+    "joi": "^13.6.0",
+    "lodash": "^4.17.10",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.38.0"
+  }
+}
